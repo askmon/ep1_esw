@@ -14,6 +14,7 @@
 				<td>${pedido.valorTotal }</td>
 				<td>${pedido.data }</td>
 				<td><a href="detalha?id=${pedido.id }">Detalhes</a></td>
+				<td><a href="remove?id=${pedido.id }">Remover</a></td>
 			</tr>
 		</c:forEach>
 	</tbody>

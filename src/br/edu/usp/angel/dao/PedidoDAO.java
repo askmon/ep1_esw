@@ -40,6 +40,21 @@ public class PedidoDAO {
 		return pedido;
 	}
 	
+	public void removePedido(Long id){
+		Pedido pedido = carregaPedido(id);
+		em.getTransaction().begin();
+		em.remove(pedido);
+		em.getTransaction().commit();
+	}
+	
+	public void addItem(Long id, String nome, double valorUnitario, int quantidade, String descricao){
+		Pedido pedido = carregaPedido(id);
+		pedido.adicionaItem(nome, descricao, valorUnitario, quantidade);
+		em.getTransaction().begin();
+		em.persist(pedido);
+		em.getTransaction().commit();
+	}
+	
 	public void salvarPedido(Pedido pedido){
 
 		em.getTransaction().begin();
