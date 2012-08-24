@@ -45,6 +45,14 @@ public class Pedido {
 		this.quantidade += quantidade;
 	}
 
+	public double  calculaValorTotal(){
+		double soma = 0;
+		for(int i = 0; i < itens.size(); i++){
+			soma += itens.get(i).getValorTotal();
+		}
+		return soma;
+	}
+	
 	public Long getId() {
 		return id;
 	}
