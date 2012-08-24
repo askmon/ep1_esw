@@ -2,45 +2,9 @@
 
 #header {
 	height: 100px;
-	background-color: navy;
-}
-#carrinho {
-	height: 80px;
-	background-color: #dcdee0;
-	width: 300px;
-	margin: 10px;
-	float: right;
-	border: 1px solid gray;
-	-moz-border-radius: 10px;
+	background-image: url(img/header.jpg);
 }
 
-#carrinho h3 a {
-	color: navy;
-}
-#carrinho h3 {
-	margin: 10px;
-}
-#carrinho span {
-	margin: 10px;	
-}
-#carrinho ul {
-	list-style: none;
-	padding-left: 10px;
-}
-#carrinho li {
-	float: left;
-	margin-right: 20px;	
-}
-
-#usuario {
-	float: left;
-	heigth: 50px;
-	background-color: #dcdee0;
-	margin: 10px;
-	padding: 5px;
-	border: 1px solid gray;
-	-moz-border-radius: 5px;	
-}
 #erros {
 	background-color: red;
 }
@@ -50,7 +14,7 @@
 	clear:both;
 }
 body {
-	background-color: navy;
+	background-color: RGB(198,198,198);
 }
 #body {
 	border-top: 1px solid gray;
@@ -75,7 +39,7 @@ body {
 #menu > ul {
 	list-style: none;
 	padding-left: 5px; 
-	background-color: #2a2948;
+	background-color: black;
 	-moz-border-radius: 0 5px 5px 0;
 }
 #menu > ul > li {
@@ -84,7 +48,7 @@ body {
 	padding: 5px 0;
 }
 #menu > ul > li:hover {
-	background-color: #5d5c7B;
+	background-color: RGB(30,144,255);
 }
 #menu > ul > li:last-child {
 	-moz-border-radius: 0 0 5px 0;
@@ -105,6 +69,21 @@ body {
 	cursor: pointer;
 	padding:0;
 	margin:0;
+}
+
+a:link {
+	text-decoration: underline;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: blue;
 }
 
 input:FOCUS, textarea:FOCUS {
@@ -146,18 +125,28 @@ fieldset legend {
 }
 
 table thead {
+	padding: 10px;
 	background-color: #2a2948;
 	color: white;
 	font-weight: bold;
 }
 
 table tbody tr:nth-child(even) {
+	padding: 10px;
 	background-color: #a29bc0;
 }
+
+table tbody tr:nth-child(odd) {
+	padding: 10px;
+	background-color: RGB(142,229,238);
+}
+
 table tbody td {
-	vertical-align: text-bottom;	
+	padding: 10px;
+	vertical-align: text-bottom;
 }
 table tfoot th {
+	padding: 10px;
 	background-color: #2a2948;
 	color: white;
 	font-weight: bold;
