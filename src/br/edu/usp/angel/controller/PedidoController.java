@@ -16,4 +16,9 @@ public class PedidoController {
 	public List<Pedido> lista() {
 		return dao.listaTudo();
 	}
+	
+	public Pedido detalha(Long id){
+		Pedido pedido = dao.carregaPedido(id);
+		return pedido;
+	}
 }

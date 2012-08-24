@@ -13,6 +13,7 @@
 				<td>${pedido.cliente }</td>
 				<td>${pedido.valorTotal }</td>
 				<td>${pedido.data }</td>
+				<td><a href="detalha?id=${pedido.id }">Detalhes</a></td>
 			</tr>
 		</c:forEach>
 	</tbody>

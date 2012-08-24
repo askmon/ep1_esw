@@ -34,7 +34,12 @@ public class PedidoDAO {
 		}
 		return session.createCriteria(Pedido.class).list();
 	}
-
+	
+	public Pedido carregaPedido(Long id){
+		Pedido pedido = em.find(Pedido.class, id);
+		return pedido;
+	}
+	
 	public void salvarPedido(Pedido pedido){
 
 		em.getTransaction().begin();
