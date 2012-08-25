@@ -16,3 +16,5 @@ http://localhost:8080/ep1-esw
 Dependendo das suas configurações do Tomcat, pode mudar.
 
 Ter a Database ep1-esw no seu MySQL é necessário para rodar o projeto.
+
+Não fiz validator, porque só conseguiria fazer do jeito certo para o nome do cliente, portanto preferi nem fazer, então conto com a colaboração dos usuários.
