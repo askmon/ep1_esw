@@ -1,3 +1,8 @@
+/*
+ * André Spanguero Kanayama			NUSP: 7156873
+ * EP1 - Engenharia de Software
+ */
+
 package br.edu.usp.angel.dao;
 
 import java.util.List;

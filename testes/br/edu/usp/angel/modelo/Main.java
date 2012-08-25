@@ -1,6 +1,15 @@
+/*
+ * André Spanguero Kanayama			NUSP: 7156873
+ * EP1 - Engenharia de Software
+ */
+
 package br.edu.usp.angel.modelo;
 
 import br.edu.usp.angel.dao.PedidoDAO;
+
+
+//Adiciona as entradas escritas aqui no banco de dados, para testar se estava tudo certinho
+//antes de começar a trabalhar com o VRaptor
 
 public class Main {
 	public static void main (String[] args){

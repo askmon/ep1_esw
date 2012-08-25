@@ -1,21 +1,18 @@
-VRAPTOR BLANK PROJECT
---------------------------------------------------------------------------------
+André Spanguero Kanayama	NUSP: 7156873
+EP1 - Engenharia de Software
 
-IMPORTING THIS PROJECT ON ECLIPSE
+Gerenciador de pedidos feito em Java para a matéria Engenharia de Software.
+Utiliza Hibernate, VRaptor e MySQL.
 
-In order to import this project on Eclipse, you'll need:
-	* choose menu file/import existent projects
-	* choose the directory that contains vraptor-blank-project (the directory in which you decompressed it)
-	* after importing, if there is  a classpath problem it means you dont have Apache Tomcat 6 configured. You
-	   can just configure a new server in window/preferences/servers, creating a new instance, and add the Server Runtime
-	   as a library inside the project build path
-	* just right click on the project, run as, run on server. choose a servlet container or configure a new one
-	* done! check the log files. access http://localhost:8080/vraptor-blank-project/ (or change 8080 to the appropriate port).
-	
-IMPORTING THIS PROJECT ON NETBEANS 6.8
-	
-	* choose menu File >> Open Project
-	* choose the directory that contains vraptor-blank-project
-	* right click on project and choose Run
-	* There might be a "It Works! VRaptor" message on the browser that has just opened. 
+Nome do meu gerenciador: Angel Store Manager.
+Baseado nos livros de Eduardo Spohr.
 
+Utilizei o projeto JPAHibernate disponibilizado no PACA da matéria e o VRaptor Blank Project do site do VRaptor.
+Também utilizei as apostilas dos cursos da Caelum FJ-21 e FJ-28, desta baixei um arquivo com exemplo de projeto chamado goodbuy, que serviu como ponto de partida.
+Foi desenvolvido no Eclipse Juno no sistema operacional Windows.
+
+Para rodar o projeto, importe-o no eclipse, adicione no seu Tomcat Server e acesse, por exemplo:
+http://localhost:8080/ep1-esw
+Dependendo das suas configurações do Tomcat, pode mudar.
+
+Ter a Database ep1-esw no seu MySQL é necessário para rodar o projeto.

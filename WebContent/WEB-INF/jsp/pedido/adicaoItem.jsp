@@ -12,7 +12,8 @@
 			for="quantidade">Quantidade:</label> <input id="quantidade"
 			type="text" name="quantidade" /> <label for="descricao">Descrição:</label>
 		<textarea id="descricao" name="descricao"></textarea>
-		<button type="submit">Enviar</button>
+		<button type="submit">Próximo item</button>
 	</fieldset>
 </form>
+<a href="lista">Encerrar adição de itens</a>
 <%@include file="/footer.jspf"%>

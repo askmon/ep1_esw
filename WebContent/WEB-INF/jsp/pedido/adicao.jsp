@@ -3,7 +3,7 @@
 	<fieldset>
 		<legend>Adicionar Pedido</legend>
 		<label for="cliente">Cliente:</label> <input id="cliente" type="text" name="pedido.cliente" /> 
-		<button type="submit">Enviar</button>
+		<button type="submit">Adicionar itens</button>
 	</fieldset>
 </form>
 <%@include file="/footer.jspf" %>
